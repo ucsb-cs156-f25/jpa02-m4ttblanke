@@ -16,7 +16,7 @@ public class Developer {
      */
 
     public static String getName() {
-        return "Matt B.";
+        return "Matt";
     }
 
     /**
@@ -35,12 +35,12 @@ public class Developer {
     
     public static Team getTeam() {
         Team team = new Team("f25-02");
-        team.addMember("Matt B.");
-        team.addMember("Gavin C.");
-        team.addMember("Manny L.");
-        team.addMember("Agam M.");
-        team.addMember("Jeffrey K.");
-        team.addMember("Felipe C.");
+        team.addMember("Matt");
+        team.addMember("Gavin");
+        team.addMember("Manny Abraham");
+        team.addMember("Agam");
+        team.addMember("Jeffrey Suchul");
+        team.addMember("Felipe");
         return team;
     }
 }
